@@ -1,0 +1,1 @@
+cp *.plist ~/Library/LaunchAgents/
