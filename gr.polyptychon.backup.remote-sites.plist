@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>gr.polyptychon.backup.remote-sites</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/harrissidiropoulos/poly-bash-scripts/poly.sh</string>
+            <string>backup</string>
+            <string>remote-sites</string>
+            <string>/Users/harrissidiropoulos/Documents/backups</string>
+        </array>
+        <key>StartCalendarInterval</key>
+        <array>
+        	<dict>
+        		<key>Minute</key>
+        		<integer>0</integer>
+        		<key>Weekday</key>
+        		<integer>6</integer>
+        	</dict>
+        </array>
+    </dict>
+</plist>
